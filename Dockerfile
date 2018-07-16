@@ -1,5 +1,5 @@
-FROM dorowu/ubuntu-desktop-lxde-vnc
-
+FROM dorowu/ubuntu-desktop-lxde-vnc:bionic
+LABEL maintainer="nick@mistry.com"
 
 RUN apt-get update && apt-get install -y \
     build-essential \
@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     libeigen3-dev \
     libextutils-cppguess-perl \
     libextutils-typemaps-default-perl \
-    libextutils-xspp-perl \
+    libextutils-xspp-perlg \
     libglew-dev \
     libgtk2.0-dev \
     liblocal-lib-perl \

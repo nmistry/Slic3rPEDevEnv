@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     libeigen3-dev \
     libextutils-cppguess-perl \
     libextutils-typemaps-default-perl \
-    libextutils-xspp-perlg \
+    libextutils-xspp-perl \
     libglew-dev \
     libgtk2.0-dev \
     liblocal-lib-perl \

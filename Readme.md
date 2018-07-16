@@ -7,7 +7,7 @@ An opinionated take on a docker based development environment for Slic3r Prusa E
 Run the docker container and access with port `6080`
 
 ```
-docker run -p 6080:80 nmistry/Slic3rPEDevEnv
+docker run -p 6080:80 nmistry73/slic3r-pe-dev-env
 ```
 
 Browse to http://localhost:6080

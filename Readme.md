@@ -32,6 +32,5 @@ perl Build.PL --gui \
 
 ## Thanks
 
-Thanks to dorowu for his ubuntu-desktop-lxde-vnc docker image which I base mine from.  
- https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/   This was a real time saver. 
+Thanks to `dorowu` for his `ubuntu-desktop-lxde-vnc` docker image which is the base for this image. https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/   This was a real time saver. 
 

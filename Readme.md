@@ -22,8 +22,9 @@ cd ~/Slic3r
 In the event that you want to use a more recent version of Slic3r PE
 
 ```
-cd ~/Slic3r
 export LDLOADLIBS=-lstdc++
+cd ~/Slic3r
+git pull origin master
 perl Build.PL --gui \
     && mkdir -p build && cd build \
     && cmake .. -DCMAKE_BUILD_TYPE=Release \

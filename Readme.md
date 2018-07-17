@@ -30,6 +30,14 @@ perl Build.PL --gui \
     && make
 ```
 
+## Building the docker image
+
+Building the docker image will always pull the latest Slic3rPE from github. 
+
+```
+docker build -t slic3r-pe-dev-env .
+```
+
 ## Thanks
 
 Thanks to `dorowu` for his `ubuntu-desktop-lxde-vnc` docker image which is the base for this image. https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/   This was a real time saver. 
